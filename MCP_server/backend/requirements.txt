@@ -1,0 +1,5 @@
+fastmcp
+dotenv
+starlette
+database
+jose
