@@ -1,1 +1,21 @@
-venv
+# Python virtual environments
+env/
+venv/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Credential files
+.env
+*.env
+credentials.json
+secrets.json
