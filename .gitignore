@@ -1,6 +1,10 @@
 # Python virtual environments
 env/
 venv/
+**/env/
+**/venv/
+**/lib64
+**/bin/python*
 
 # Operating System files
 .DS_Store
@@ -19,3 +23,7 @@ __pycache__/
 *.env
 credentials.json
 secrets.json
+
+# Notebooks with potential secrets
+**/langchain.ipynb
+**/test.ipynb

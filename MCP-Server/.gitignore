@@ -19,3 +19,7 @@ __pycache__/
 *.env
 credentials.json
 secrets.json
+
+# Notebooks with potential secrets
+**/langchain.ipynb
+**/test.ipynb
